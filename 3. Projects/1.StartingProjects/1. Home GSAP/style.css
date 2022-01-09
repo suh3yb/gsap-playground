@@ -55,7 +55,7 @@ nav img {
 }
 
 .overlay {
-  position: absolute;
+  position: fixed;
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.603);
@@ -70,7 +70,7 @@ video {
   object-fit: cover;
   width: 100%;
   height: 100%;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
 }
@@ -78,6 +78,7 @@ video {
 .home-content {
   width: 600px;
   margin: 0 auto;
+  padding-bottom: 100px;
   position: relative;
   top: 150px;
   color: #fff;
