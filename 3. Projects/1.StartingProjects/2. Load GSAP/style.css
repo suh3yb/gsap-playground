@@ -19,7 +19,7 @@ body {
   pointer-events: none;
 }
 
-.anim-bloc {
+.anim-block {
   position: absolute;
   top: 40%;
   left: 50%;
@@ -28,7 +28,7 @@ body {
   height: 400px;
   z-index: 100;
 }
-.bloc-txt {
+.block-txt {
   background: white;
   position: absolute;
   bottom: -50px;
@@ -38,7 +38,7 @@ body {
   overflow: hidden;
 }
 
-.bloc-txt h2 {
+.block-txt h2 {
   padding: 10px 30px;
   color: #222;
   font-family: Playfair Display, serif;
@@ -84,15 +84,15 @@ body {
 }
 
 @media screen and (max-width: 500px) {
-    .anim-bloc {
-        width: 300px;
-        height: 300px;
-      }
-      .bloc-txt {
-        bottom: -50px;
-        left: 50%;
-        transform: translateX(-50%);
-      }
+  .anim-block {
+    width: 300px;
+    height: 300px;
+  }
+  .block-txt {
+    bottom: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
 
 .home {
