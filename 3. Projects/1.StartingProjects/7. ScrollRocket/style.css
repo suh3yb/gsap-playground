@@ -22,7 +22,6 @@ body {
   font-size: clamp(35px, 3vw, 75px);
   text-align: center;
   padding-bottom: 50px;
-
 }
 
 .rocket-section {
@@ -32,8 +31,7 @@ body {
   padding-top: 100px;
 }
 
-
-.bloc {
+.block {
   display: flex;
   /* overflow: hidden; */
   margin: 0 auto;
@@ -41,51 +39,50 @@ body {
   max-width: 800px;
   padding-bottom: 100px;
 }
-.bloc2 {
+.block2 {
   transform: translateY(-105px);
 }
-.bloc3 {
+.block3 {
   transform: translateY(-206px);
 }
-.bloc4 {
+.block4 {
   transform: translateY(-848px);
-} 
-
-.bloc img {
-    display: block;
-    margin: 0 auto;
-    height: auto;
-    width: 150px;
-
 }
 
-.bloc h2,
-.bloc p {
+.block img {
+  display: block;
+  margin: 0 auto;
+  height: auto;
+  width: 150px;
+}
+
+.block h2,
+.block p {
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
   width: 50%;
 }
 
-.bloc p {
-    font-size: 18px;
+.block p {
+  font-size: 18px;
 }
 
-.bloc h2 {
-    font-family: Quicksand, sans-serif;
-    font-weight: 300;
-    text-align: right;
-    font-size: 30px;
+.block h2 {
+  font-family: Quicksand, sans-serif;
+  font-weight: 300;
+  text-align: right;
+  font-size: 30px;
 }
-.bloc4 h2 {
-    padding-right: 10px;
-}
-
-.bloc4 p {
-    padding-left: 10px;
+.block4 h2 {
+  padding-right: 10px;
 }
 
-.bloc.active h2,
-.bloc.active p {
+.block4 p {
+  padding-left: 10px;
+}
+
+.block.active h2,
+.block.active p {
   opacity: 1;
 }
 
@@ -94,16 +91,12 @@ body {
   background: lightsteelblue;
 }
 
+@media screen and (max-width: 600px) {
+  .block p {
+    font-size: 12px;
+  }
 
-@media screen and (max-width: 600px){
-
-  
-.bloc p {
-  font-size: 12px;
-}
-
-.bloc h2 {
-  font-size: 13px;
-}
-
+  .block h2 {
+    font-size: 13px;
+  }
 }
